@@ -1,0 +1,5 @@
+python文件打包exe教程：
+1.使用命令：python -m pip list 检测是否安装了pyinstaller
+2.若无，则使用命令：pip install pyinstaller 安装pyinstaller，之后返回第一步，并得出"pyinstaller-hooks-contrib  2020.7"字样
+3.若已安装，使用命令：pyinstaller -F qiduanshumaguan.py(#qiduanshumaguan.py是指你要打包的py文件）进行打包
+4.打包文件在命令行里
